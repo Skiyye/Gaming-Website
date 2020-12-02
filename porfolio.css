@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+html {
+    background-color:black;
+}
+
+h2 {
+    color:white;
+    font-family:'Goldman';
+}
+
+h3 {
+    color:white;
+    font-family:'Goldman';
+    font-size:30px;
+}
+
+p {
+    font-family:'Goldman';
+    color:white;
+    border-bottom: black 70px solid;
+    font-size:20px;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+    font-family:'Goldman'
+}
+
+nav ul {
+	list-style-type: none;
+    text-align: center;
+    background-color: black;
+    padding: 20px 15px 15px 15px;
+    border: white 5px solid;
+    font-family:'Goldman'
+}
+
+nav li {
+	display: inline;
+    margin-left:45px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:link {
+	color: white;
+}
+nav a:visited {
+	color: grey;
+}
+nav a:hover {
+	color: white;
+    text-decoration: none;
+}
+nav a:active {
+	color: black;
+}
+
+blockquote {
+    margin-left:210px;
+    margin-right:200px;
+    padding-left:15px;
+    border-left:white solid 5px;
+    font-family:'Goldman';
+    color:white;
+}
+
+footer {
+    color:white;
+    font-family:'Goldman';
+}
+
+img { 
+    border: white 2px solid;
+}
+
+main{
+    border-left:20px black solid;
+    border-right:100px black solid;
+}
+
+.gallery .preview{
+    width:100%;
+    height:auto;
+    margin-bottom:5px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    border: white 2px solid;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+    border: white 2px solid;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border: white 2px solid;
+}
+
+.leftfloat {
+    float:left;
+    margin:1em;
+}
+
+#logo {
+    background-image:url(images/logo.png);
+    width:100px;
+    height:50px;
+    border:black solid 1px;
+    background-size:100px 50px;
+    background-repeat:no-repeat;
+    float:right;
+    margin-right:300px;
+    margin-top:6px;
+}
+
+/* Tablets */
+@media only screen and (max-width: 1024px){
+    blockquote {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left:15px;
+    border-left:grey solid 5px;
+    font-family:'Goldman';
+    }
+    
+}
